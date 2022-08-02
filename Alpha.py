@@ -16,7 +16,7 @@ from pylatex import Math, TikZ, Axis, Plot, Figure, Matrix, Alignat
 from pylatex.utils import italic
 nltk.download('')
 phys_dict = {'Classical':'https://arxiv.org/list/physics.class-ph/new',
-             ''
+             '':''
             }
 f = 'ooga booga'
 
