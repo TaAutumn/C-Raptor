@@ -67,6 +67,4 @@ physics_understanding_data=all_great_one(pdf_general_phys,False)
 model = ai.aitextgen()
 model.save('ai_home')
 
-def training(mdl,data1,data2=[],data3=[],data4=[],data5=[],data6=[],data7=[],data8=[],data9=[],data10=[],learn_rate=0.01):
-    mdl.train(data1)
-
+model.train(physics_understanding_data,learning_rate=0.01)
